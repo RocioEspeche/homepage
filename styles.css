@@ -1,4 +1,4 @@
-/*General styles*/
+*General styles*/
 * {
     margin: 0;
     padding: 0;
@@ -13,8 +13,8 @@
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --border-color: #d6a4cfc5;
+    --text-decoration-color: #a54498c5;
   }
   
   .container {
@@ -109,7 +109,7 @@
 
 .contact-info__item-icon-wrapper {
   margin-right: 10px;
-  width: 20px;
+  width: 30px;
   display: flex;
   justify-content: center;
 }
@@ -230,8 +230,14 @@
   
   .additional-info__education-header {
     color: var(--secondary-text-color);
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
+  }
+
+  .additional-info__education_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   
   .additional-info__education-university-durability {
@@ -244,11 +250,15 @@
   .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    margin-left: 1rem;
+    font-weight: bold;
   }
   
   .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    text-align: left;
+    margin-left: 1rem;
   }
   
   .additional-info__languages {
@@ -257,10 +267,11 @@
   
   .additional-info__languages-header {
     color: var(--secondary-text-color);
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
   }
-  
+
   .additional-info__languages-item {
     color: var(--secondary-text-color);
+    text-align: center;
   }
